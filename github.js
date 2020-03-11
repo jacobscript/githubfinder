@@ -1,6 +1,8 @@
 class Github {
     constructor() {
+        //real id removed, it will work for 100 requests per 1 hour
         this.client_id = '';
+        //the greatest secrets are always hidden (-:
         this.client_secret = '';
         this.repos_count = 5;
         this.repos_sort = 'created: asc';
